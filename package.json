@@ -1,0 +1,19 @@
+{
+  "name": "ozx-stock-forecast",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "validate": "yarn build && node ./dist/scripts/validate",
+    "predict": "yarn build && node ./dist/scripts/predict"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.5.0",
+    "@tensorflow/tfjs-node": "^2.5.0",
+    "tfjs-node-save": "^0.0.2"
+  },
+  "devDependencies": {
+    "tslib": "^2.0.2",
+    "typescript": "^4.0.3"
+  }
+}
