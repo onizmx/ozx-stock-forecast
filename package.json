@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npx tsc",
+    "train": "yarn build && node ./dist/src/scripts/train",
     "validate": "yarn build && node ./dist/src/scripts/validate",
     "predict": "yarn build && node ./dist/src/scripts/predict"
   },

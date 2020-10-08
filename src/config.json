@@ -1,0 +1,13 @@
+{
+  "root": "ibm-forecast",
+  "model": "1601967574172",
+  "windowSize": 5,
+  "trainingSize": 0.8,
+  "epochs": 2000,
+  "lstmLayers": 6,
+  "learningRate": 0.0005,
+  "inputLayerNeurons": 100,
+  "rnnInputLayerFeatures": 10,
+  "rnnOutputNeurons": 20,
+  "outputLayerNeurons": 1
+}
